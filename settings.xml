@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
         <server>
-            <id>codeartifact</id>
+            <id>visualpath-maven-central-store</id>
             <username>aws</username>
             <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
         </server>
@@ -14,8 +14,8 @@
     <id>default</id>
     <repositories>
       <repository>
-        <id>codeartifact</id>
-    <url>https://domain-accountid.d.codeartifact.region.amazonaws.com/maven/maven-central-store/</url>
+        <id>visualpath-maven-central-store</id>
+    <url>https://visualpath-461655781674.d.codeartifact.us-east-2.amazonaws.com/maven/maven-central-store/</url>
       </repository>
     </repositories>
   </profile>
@@ -25,9 +25,9 @@
     </activeProfiles>
 <mirrors>
   <mirror>
-    <id>codeartifact</id>
-    <name>domainname--maven-central-store</name>
-    <url>https://domain-accountdid.d.codeartifact.region.amazonaws.com/maven/maven-central-store/</url>
+    <id>visualpath-maven-central-store</id>
+    <name>visualpath--maven-central-store</name>
+    <url>https://visualpath-461655781674.d.codeartifact.us-east-2.amazonaws.com/maven/maven-central-store/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>

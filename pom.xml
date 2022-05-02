@@ -208,9 +208,9 @@
     </build>
   <repositories>
       <repository>
-        <id>codeartifact</id>
-        <name>codeartifact</name>
-    <url>https://domainame-accountid.d.codeartifact.regioncode.amazonaws.com/maven/maven-central-store/</url>
+        <id>visualpath-maven-central-store</id>
+        <name>visualpath-maven-central-store</name>
+    <url>https://visualpath-461655781674.d.codeartifact.us-east-2.amazonaws.com/maven/maven-central-store/</url>
       </repository>
     </repositories>
 </project>
